@@ -1,3 +1,14 @@
+nav>ul {
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+nav>ul>li {
+	margin: 0.5rem 3rem;
+	display: inline-block;
+}
+
 input[type='text'], input[type='number'] {
     width: 20%;
     display: block;
@@ -6,7 +17,7 @@ input[type='text'], input[type='number'] {
     box-sizing: border-box;
 }
 
-section {
+.output {
 	border: 0.05rem solid #000;
     margin: 2rem;
     padding: 0.75rem;

@@ -1,9 +1,15 @@
 /* 
- * Implementation of the FizzBuzz challenge using jQuery
- * to add the results to the DOM.
+ * Hybrid of the original FizzBuzz challenge. 
+ * This script takes user input for the two words and the number 
+ * of iterations. The premise is the same, I just use jQuery to 
+ * retrieve user input and print the results to the page.
  */
 $(document).ready(function() {
-	printNumbers('fizz', 'buzz', 100);
+	$('#preferences').submit(function() {
+		$('#printout').empty(); //Clear the contents of the section
+		printNumbers($('#divBy3Word').val(), $('#divBy5Word').val(), $('#numToPrint').val());
+		event.preventDefault();
+	});
 });
 
 var printNumbers = function(divisibleBy3, divisibleBy5, loopNum) {

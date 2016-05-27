@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FizzBuzz App Plus</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="fizz_buzz_plus.js"></script>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="index.html">Index</a></li>
+		<li><a href="plain.html">Plain Edition</a></li>
+	</ul>
+</nav>
+<h1>FizzBuzz Challenge: Plus Edition</h1>
+<form id="preferences" action="plus.html">
+	<label for="divBy3Word">Print the following word when the number is divisible by 3: </label>
+	<input type="text" id="divBy3Word" value="Fizz">
+	<label for="divBy5Word">Print the following word when the number is divisible by 5: </label>
+	<input type="text" id="divBy5Word" value="Buzz">
+	<label for="numToPrint">Numbers to print: </label>
+	<input type="number" id="numToPrint" value="100">
+  	<br>
+  	<input type="submit">
+  </form>
+	<section id="printout" class="output">
+		<p>output</p>
+	</section>
+</body>
+</html>
