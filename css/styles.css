@@ -1,0 +1,13 @@
+input[type='text'], input[type='number'] {
+    width: 20%;
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+section {
+	border: 0.05rem solid #000;
+    margin: 2rem;
+    padding: 0.75rem;
+}
